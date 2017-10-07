@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cl</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h2>Calculator App </h2>
+    <div class="wrapper">
+        <form action="#">
+            <input type="text" id="output" readonly>
+            
+        </form>
+        <div>
+         <button value="1" onclick="getValue(this)">1</button>
+         <button value="2" onclick="getValue(this)">2</button>
+         <button value="3" onclick="getValue(this)">3</button>
+        </div>
+        <div>
+         <button value="4" onclick="getValue(this)">4</button>
+         <button value="5" onclick="getValue(this)">5</button>
+         <button value="6" onclick="getValue(this)">6</button>
+        </div>
+        <div>
+         <button value="7" onclick="getValue(this)">7</button>
+         <button value="8" onclick="getValue(this)">8</button>
+         <button value="9" onclick="getValue(this)">9</button>
+        </div>
+        
+        <div>
+            <button value="0" onclick="getValue(this)">0</button>
+            <button value="+" onclick="getValue(this)">+</button>
+            <button value="-" onclick="getValue(this)" >-</button>
+        </div>
+        <div>
+             <button value="/" onclick="getValue(this)">/</button>
+            <button value="*" onclick="getValue(this)">*</button>
+            <button value="=" onclick="getValue(this)">=</button>
+        </div>
+        <div>
+            <button value="AC" onclick="getValue(this)" id="reset" >AC</button>
+            <button value="clear" onclick="getValue(this)" id="clr">Del</button>
+        </div>
+       
+       
+    </div>
+</body>
+<script src="js/calculator.js"></script>
+</html>
